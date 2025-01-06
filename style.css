@@ -120,7 +120,7 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
 }
-.rating-box span{ /*on align les chiffre dans le span*/
+form label{ /*on align les chiffre dans le span*/
 
     display: flex; 
     align-items: center;
@@ -135,8 +135,10 @@ h1{
     color:var(--LightGrey)
 
 }
-
-.rating-box span:hover{
+form input{
+    display:none;
+}
+form label:hover{
     background-color: var(--White);
 }
 
